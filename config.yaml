@@ -1,6 +1,6 @@
 baseURL: 'https://zaanseverhalen.nl'
 languageCode: 'nl'
-title: 'Zaanse Verhalen'
+title: 'Zaanse Verhalen 2'
 theme: "ananke"
 # resourceDir: ../resources
 DefaultContentLanguage: nl
