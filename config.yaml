@@ -45,5 +45,4 @@ params:
   recent_posts_number: 5
   # ananke_socials:
   #   - name: twitter
-  #     url: 'https://twitter.com/zaanseverhalen'theme = "ananke"
-theme = "ananke"
+  #     url: 'https://twitter.com/zaanseverhalen'
