@@ -16,7 +16,7 @@ languages:
 
 module:
   imports:
-    - path: github.com/budparr/gohugo-theme-ananke
+    - path: github.com/theNewDynamic/gohugo-theme-ananke
 
 outputs:
   home:
