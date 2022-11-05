@@ -1,0 +1,48 @@
+baseURL: 'https://zaanseverhalen.nl'
+languageCode: 'nl'
+title: 'Zaanse Verhalen'
+theme: "ananke"
+# resourceDir: ../resources
+DefaultContentLanguage: nl
+SectionPagesMenu: main
+Paginate: 10
+# googleAnalytics: ''
+enableRobotsTXT: true
+languages:
+  nl:
+    title: Zaanse Verhalen
+    weight: 1
+    contentDir: content
+
+module:
+  imports:
+    - path: github.com/budparr/gohugo-theme-ananke
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  category: categories
+  tag: tags
+
+# sitemap:
+#   changefreq: monthly
+#   priority: 0.5
+#   filename: sitemap.xml
+pluralizelisttitles: false
+params:
+#   text_color: ''
+  author: 'Ruud Meijns'
+  DateForm: "2 Jan 2006"
+  # commentoEnable: true
+#   favicon: ''
+#   site_logo: ''
+  description: Historie en mensen uit de Zaanstreek
+#   background_color_class: bg-black
+  recent_posts_number: 5
+  ananke_socials:
+    - name: twitter
+      url: 'https://twitter.com/zaanseverhalen'theme = "ananke"
