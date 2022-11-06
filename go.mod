@@ -1,4 +1,4 @@
-module csmeyns.github.io/zaanseverhalen2
+module test-zaanseverhalen2
 
 go 1.19
 

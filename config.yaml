@@ -1,7 +1,7 @@
 baseURL: 'https://zaanseverhalen.nl'
 languageCode: 'nl'
 title: 'Zaanse Verhalen 2'
-theme: ananke
+# theme: ananke
 # resourceDir: ../resources
 DefaultContentLanguage: nl
 SectionPagesMenu: main
@@ -14,9 +14,9 @@ languages:
     weight: 1
     contentDir: content
 
-# module:
-#   imports:
-#     - path: github.com/theNewDynamic/gohugo-theme-ananke
+module:
+  imports:
+    - path: github.com/theNewDynamic/gohugo-theme-ananke
 
 outputs:
   home:
